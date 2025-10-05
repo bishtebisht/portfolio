@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Space+Grotesk:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #f3f0e8;
+  color: #222;
+}
+
+/* Header */
+.header {
+  background: #a203b7;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  top: 0;
+}
+.header .logo a {
+  color:#501062;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+.nav a {
+  color: #fac67a;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #fff;
+}
+
+.main {
+  background: linear-gradient(120deg, #501062 60%, #f9e6cf 30%);
+  color: #fff;
+  text-align: left;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main h2 {
+  color: #ffd95b;
+}
+.main h2 span {
+  color: #ffd95b;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+.main p {
+  max-width: 530px;
+  color: #fcf2e7;
+  font-size: 18px;
+}
+.photo{
+  margin-right: 40px;
+}
+.photo img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+section {
+  background-color: #fcf2e7;
+  padding: 50px 100px 10px 100px;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #69247c;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+.skills ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.skills li {
+  background: #ffd95b;
+  color: #da498d;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 650;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+th,
+td {
+  border: 1px solid #999;
+  padding: 10px 15px;
+  text-align: left;
+}
+th {
+  background: #a203b7;
+  color: #fff;
+}
+/* Contact */
+.contact {
+  background: #a203b7;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+.contact a {
+  color: #ffd95b;
+}
